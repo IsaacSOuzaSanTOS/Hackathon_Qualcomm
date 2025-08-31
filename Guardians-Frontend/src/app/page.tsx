@@ -11,7 +11,7 @@ export default function Home() {
       <div className={classes.container}>
         <div className={classes.geral}>
           <div className={classes.text_area}>
-            <h1>Alerta sonoro contra sonolência de motoristas</h1>
+            <h1>Projeto Guardians</h1>
             <p>
               Estudos mostram que quase 1 em cada 10 acidentes graves nos EUA está ligado à sonolência ao volante. 
               No Brasil, estima-se que o sono custe centenas de milhões de reais ao ano para transportadoras, sem contar as vidas perdidas.
