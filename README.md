@@ -78,6 +78,14 @@ Nosso sistema de alerta para motoristas sonolentos traz diversos benefícios, to
 
 ## Link de Demonstração
 
-
+https://youtube.com/shorts/zG9m7ipRn8g?si=0jeQIyoCsSd7zEeJ
 
 ## Instalação e Execução
+
+Version - Python 3.10.10
+
+### Para o front
+No terminal: cd Guardians-Frontend -> npm i -> npm run dev
+
+### Para o Back
+Acesse a pasta hackaton, rode todas as células de "treinando_bocejo.ipynb" para criar o modelo, rode "convert_model.py" para transformar o arquivo em onnx, rode "test_onnx_model.py" para validar os testes do modelo e por último rode "main.py" para uma demonstração aplicada do software.
