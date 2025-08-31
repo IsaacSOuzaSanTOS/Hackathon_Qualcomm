@@ -1,6 +1,6 @@
 # Hackathon_Qualcomm
 
-## EdgeAlert
+## Guardians
 
 ## Membros
 - Antonio Iranilson Honorato dos Santos Junior - [iranhonorato](https://github.com/iranhonorato)
@@ -51,7 +51,7 @@ Todo o **processamento e armazenamento de dados** ocorre **100% localmente**, se
 - Operação contínua mesmo em áreas sem internet  
 - Baixa latência na detecção de sonolência e envio de alertas  
 
-## Benefícios Esperado
+## Benefícios Esperados
 
 Nosso sistema de alerta para motoristas sonolentos traz diversos benefícios, tornando-o uma solução inovadora e prática:
 
