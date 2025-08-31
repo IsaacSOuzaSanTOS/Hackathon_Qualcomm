@@ -1,0 +1,108 @@
+/* Layout padrão (desktop) */
+.pai {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 0.1rem;
+  background-color: #2e2e33; 
+  border-bottom: 0.063rem solid #1717cb; 
+}
+
+.logo {
+  width: 8%;
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-align: left;
+}
+
+.logo a {
+  text-decoration: none;
+}
+
+.logo p {
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+}
+
+.logo p:hover {
+  font-family: 'Montserrat', sans-serif;
+  color: #ff7f00;
+}
+
+.central {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 3rem;
+  text-align: center;
+  width: 80%;
+}
+
+.central p {
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  cursor: pointer;
+}
+
+.central p:hover {
+  color: #ff7f00; 
+}
+
+
+.final p {
+  display: none;
+}
+
+
+.final {
+  padding: 0.5rem 1rem;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+}
+
+
+.final:hover {
+  background-color: #ff7f00; 
+}
+
+
+@media (max-width: 60rem) {
+  .pai {
+    flex-direction: column;
+  }
+
+
+  .logo {
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+
+
+
+  .central {
+    flex-direction: row; /* Links ficam em coluna */
+    gap: 1rem;
+    display: none; /* Esconde os links inicialmente */
+  }
+
+
+
+  .central.menuActive {
+    display: flex; 
+  }
+
+
+
+  .final {
+    justify-content: center;
+    margin-top: 1rem;
+  }
+
+
+  
+  .final p {
+    width: 100%; /* Botão ocupa toda a largura */
+  }
+}
+

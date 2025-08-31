@@ -1,0 +1,61 @@
+
+.pai {
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.45);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+  padding: 1rem; 
+}
+
+
+
+
+.modal::-webkit-scrollbar {
+  width: 0.5rem;              
+}
+
+.modal::-webkit-scrollbar-track {
+  background: transparent;     
+}
+
+.modal::-webkit-scrollbar-thumb {
+  background: rgba(255,255,255,0.25);
+  border-radius: 0.25rem;       
+}
+
+.modal::-webkit-scrollbar-thumb:hover {
+  background: rgba(255,255,255,0.4);
+}
+
+
+
+.modal {
+  background: #2e2e33;         
+  width: min(56.25rem, 90vw);  
+  max-height: 85vh;            
+  overflow: auto;
+  border-radius: 0.75rem;      
+  box-shadow: 0 0.625rem 1.875rem #2e2e33; 
+  padding: 1.5rem;
+  border: 0.063rem solid #1717cb             
+}
+
+
+.modal img,
+.modal video,
+.modal canvas {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+
+@media (max-width: 30rem) { 
+  .modal {
+    padding: 1rem;    
+    max-height: 88vh;
+  }
+}
