@@ -67,7 +67,7 @@
 }
 
 
-@media (max-width: 60rem) {
+@media (max-width: 70rem) {
   .pai {
     flex-direction: column;
   }

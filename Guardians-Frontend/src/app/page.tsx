@@ -7,7 +7,6 @@ export default function Home() {
   return (
     <div className={classes.page}>
 
-
       <div className={classes.container}>
         <div className={classes.geral}>
           <div className={classes.text_area}>
@@ -24,6 +23,13 @@ export default function Home() {
           </div>
           <div className={classes.vid_area}>
             <h1>Vídeo</h1>
+            <iframe
+              src="https://www.youtube-nocookie.com/embed/zG9m7ipRn8g"
+              title="YouTube video player"
+              frameBorder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+            ></iframe>
           </div>
         </div>
       </div>

@@ -37,10 +37,21 @@
 
 .text_area {
   width: 40%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .vid_area {
   width: 40%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
 }
 
 .complete_features {
@@ -95,4 +106,25 @@
 .study_data img {
   height: 20rem;
   width: auto;
+}
+
+
+.vid_area iframe {
+  width: 30rem;
+  height: 20rem;
+}
+
+@media (max-width: 70rem) {
+  .geral {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+  }
+
+  .vid_area { 
+    width: 100%; 
+  }
+
 }
